@@ -9,3 +9,9 @@ function subtract(num1, num2){
 	console.log("Difference:"+result);
 	return result;
 }
+function multiply(num1,num2)
+{
+	var result = num1*num2;
+	console.log("Multiplication:"+result);
+	return result;
+}
