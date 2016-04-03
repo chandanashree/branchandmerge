@@ -21,3 +21,9 @@ function multiply(num1,num2,num3,num4)
 	console.log("Multiplication:"+result);
 	return result;
 }
+function mod(num1,num2)
+{
+	var result = num1%num2;
+	console.log("Modulus:"+result);
+	return result;
+}
