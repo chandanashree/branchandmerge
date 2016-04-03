@@ -1,8 +1,11 @@
-function sum()
+function sum(num1,num2)
 {
-	var num1=3;
-	var num2=6;
-	var answer=num1+num2;
-	console.log("sum of two numbers:"+answer);
-
+	var result = num1 + num2;
+	console.log("Sum :"+result);
+	return result;
+}
+function subtract(num1, num2){
+	var result = num2 - num1;
+	console.log("Difference:"+result);
+	return result;
 }
