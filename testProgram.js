@@ -15,9 +15,9 @@ function subtract(num1, num2){
 	console.log("Difference:"+result);
 	return result;
 }
-function multiplication(num1,num2,num3)
+function multiply(num1,num2,num3,num4)
 {
-	var result = num1*num2;
+	var result = num3*num2*num1*num4;
 	console.log("Multiplication:"+result);
 	return result;
 }
